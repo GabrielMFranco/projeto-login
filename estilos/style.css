@@ -49,7 +49,7 @@ section#login > div#imagem{
     background-size: cover;
     background-position: center;
     height: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 section#login > div#formulario{
     display: block;
@@ -85,7 +85,6 @@ form > a.botao{
     padding-top: 5px;
     margin-top: 7px;
     background-color: var(--cor2);
-    color: white;
     border: 1px solid yellow;
     border-radius: 5px;
     text-decoration: none;
