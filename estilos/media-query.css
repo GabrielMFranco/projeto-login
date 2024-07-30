@@ -14,6 +14,19 @@
         float: left;
         width: 70%;
     }
+    form > a.botao{
+        margin: auto;
+        width: 45%;
+    }
+    form > input[type=submit]{
+        margin: auto;
+        width: 45%;
+        margin-bottom: 10px;
+    }
+    p{
+        padding-bottom: 5px;
+    }
+
 }
 @media screen and (min-width:992px){
     body{
@@ -35,5 +48,21 @@
         width: 50%;
         height: 100%;
         background-color: #171717;
+    }
+    form > a.botao{
+        margin: auto;
+        width: 45%;
+    }
+    form > input[type=submit]{
+        margin: auto;
+        width: 45%;
+        margin-bottom: 10px;
+    }
+    h1{
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    p{
+        padding-bottom: 10px;
     }
 }
