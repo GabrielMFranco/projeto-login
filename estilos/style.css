@@ -33,7 +33,7 @@ section#login{
     transform: translate(-50%, -50%);
     
     background-color: rgba(0, 0, 0, 0.411);
-    width: 250px;
+    width: 253px;
     height: 500px;
     border-radius: 20px;
     border: 1px solid var(--cor2);
