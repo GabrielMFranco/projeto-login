@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*  Paleta de Cores
     laranja:#E53E1A
     preto:
@@ -13,41 +12,48 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box ;
-    text-align: center;
 }
 body, html{
     height: 100vh;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.856);
+    background-color: rgba(34, 34, 34, 0.856);
     color: white;
 }
 main{   
-    width: 250px;
-    height: 500px;
-    margin: auto;
-    border: 2px solid var(--cor2) ;
-    border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #00000077;
-    box-shadow: inset 0px 0px 5px #fa9e009a;
+    text-align: center;
 }
-div{
+section#login{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    border: 1px solid var(--cor2);
+    box-shadow: inset 0px 0px 5px #fa9e009a;
+    overflow: hidden;
+
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: ease;
+}
+section#login > div#imagem{
+    display: block;
     background-image:url(../imagens/imagem-site.jpg);
     background-size: cover;
     background-position: center;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    height: 25vh;
-    margin-bottom: 30px;
+    height: 200px;
+    margin-bottom: 20px;
 }
-main > section >p.cor{
-    color:#FA9F00;
-}
-section{
-
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
 }
 h1{
     margin-bottom: 10px;
@@ -60,8 +66,5 @@ p{
     margin-bottom: 10px;
     font-size: 1em;
 }
-.text-input{
-    height: 300px;
-   
-}
+
     
